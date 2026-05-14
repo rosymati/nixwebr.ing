@@ -36,9 +36,7 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "systems": [
-          "systems"
-        ]
+        "systems": "systems"
       },
       "locked": {
         "lastModified": 1745761362,
@@ -58,8 +56,7 @@
       "inputs": {
         "crane": "crane",
         "nixpkgs": "nixpkgs",
-        "nte": "nte",
-        "systems": "systems"
+        "nte": "nte"
       }
     },
     "systems": {

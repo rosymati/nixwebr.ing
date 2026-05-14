@@ -3,19 +3,15 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    systems.url = "github:nix-systems/default";
     nte = {
       url = "git+https://git.poz.pet/poz/nte";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        systems.follows = "systems";
-      };
+      inputs.nixpkgs.follows = "nixpkgs";
     };
     crane.url = "github:ipetkov/crane";
   };
 
-  outputs = { self, nixpkgs, systems, nte, crane, ... }: let
-    forEachSystem = nixpkgs.lib.genAttrs (import systems);
+  outputs = { self, nixpkgs, nte, crane, ... }: let
+    forEachSystem = nixpkgs.lib.genAttrs nixpkgs.lib.platforms.linux;
     pkgsForEach = nixpkgs.legacyPackages;
 
     name = "nixwebr.ing";
