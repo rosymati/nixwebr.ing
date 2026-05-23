@@ -44,7 +44,7 @@
     { name = "thegrayarea"; site = "https://the.smallinter.net"; config = "https://codeberg.org/thegrayarea/nixsrv"; }
     { name = "boers"; site = "https://boers.email"; config = "https://github.com/martijnboers/nixos"; }
     { name = "quantenzitrone"; site = "https://quantenzitrone.eu"; config = "https://codeberg.org/quantenzitrone/nixos-config"; }
-    { name = "matilde"; site = "https://matilde.pet"; config = "https://github.com/puppymati/kennel"; } 
+    { name = "matilde"; site = "https://matilde.pet"; config = "https://github.com/puppymati/kennel"; }
     { name = "poacher"; site = "https://henry.is-a.dev"; config = "https://codeberg.com/poacher/nix-dotfiles"; }
     { name = "luuumine"; site = "https://luuumine.com"; config = "https://git.luuumine.com/luuumine/nixos"; }
     { name = "karolbroda"; site = "https://karolbroda.com"; config = "https://github.com/karol-broda/nixos-config"; }
@@ -56,4 +56,5 @@
     { name = "lair"; site = "https://lair.moe"; config = "https://g.lair.moe/Sweetbread/nixos-config"; }
     { name = "ivy"; site = "https://ivyro.se"; config = "https://git.lovecomputer.net/ivy/sys"; }
     { name = "Ladas552"; site = "https://blog.ladas552.me/"; config = "https://tangled.org/ladas552.me/Flake-ocean"; }
+    { name = "hexzii"; site = "https://nichijou.moe/"; config = "https://codeberg.org/hexzii/nixos-config"; }
 ]
