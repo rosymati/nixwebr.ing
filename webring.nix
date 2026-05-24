@@ -57,4 +57,5 @@
     { name = "ivy"; site = "https://ivyro.se"; config = "https://git.lovecomputer.net/ivy/sys"; }
     { name = "Ladas552"; site = "https://blog.ladas552.me/"; config = "https://tangled.org/ladas552.me/Flake-ocean"; }
     { name = "hexzii"; site = "https://nichijou.moe/"; config = "https://codeberg.org/hexzii/nixos-config"; }
+    { name = "lem.my"; site = "https://lem.my"; config = "https://tangled.org/lem.my/dotfiles"; }
 ]
