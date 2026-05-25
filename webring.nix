@@ -59,4 +59,5 @@
     { name = "hexzii"; site = "https://nichijou.moe/"; config = "https://codeberg.org/hexzii/nixos-config"; }
     { name = "lem.my"; site = "https://lem.my"; config = "https://tangled.org/lem.my/dotfiles"; }
     { name = "foko"; site = "https://hetman.at/me"; config = "https://git.hetman.at/foko/nixos"; }
+    { name = "ginkogruen"; site = "https://ginkogruen.net"; }
 ]
