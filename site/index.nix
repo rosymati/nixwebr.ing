@@ -108,6 +108,14 @@ in {
 
           ${h2 "updates"}
           <p>
+            2026-05-29
+            <br>
+            I'm gathering feedback about potentially removing the nixwebring from
+            github entirely, please leave some comments under the
+            <a href="https://github.com/imnotpoz/nixwebr.ing/issues/81">github issue</a>
+            if you have any :)
+          </p>
+          <p>
             2025-05-07
             <br>
             removed <code>spoody</code> due to the website being broken
