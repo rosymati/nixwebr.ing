@@ -6,7 +6,7 @@ pub fn shift_ring(
     forward: bool,
 ) -> Option<String> {
     if let Some((i, _)) = members.iter().enumerate().find(|(_, member)| member.name == *name) {
-        let mut m = members.to_owned().clone();
+        let mut m = members.to_owned();
         if forward {
             m.rotate_left(i + 1);
         } else {
